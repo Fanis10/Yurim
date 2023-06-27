@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Страница товара</title>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+    <div class="content">
+
+        <header class="header">
+    <div class="container">
+       <div class="header__inner">
+           <a href="" class="header__logo">
+               <img src="img/logo.webp" alt="">
+           </a>
+           <div class="header__wrap">
+               <div class="header-top">
+                    <a href="" class="header__location">
+                        <i>
+                            <img src="img/location.svg" alt="">
+                        </i>
+                        <span>Тульская обл., Дубенский р-н, <br> пгт. Дубна, ул. Первомайская, 2</span>
+                    </a>
+                   <a href="mailto:zakaz@yurim.ru" class="header__mail">
+                       <i>
+                           <img src="img/mail.svg" alt="">
+                       </i>
+                       <span>zakaz@yurim.ru</span>
+                   </a>
+                   <a href="tel:88005502608" class="header__tel">
+                       <i>
+                           <img src="img/tel.svg" alt="">
+                       </i>
+                       <span>8-800-550-26-08</span>
+                   </a>
+                   <div class="header__btns">
+                       <a class="header__btn btn" href="">
+                           <span>Оставить заявку</span>
+                       </a>
+                       <button class="header__search">
+                           <img src="img/search.svg" alt="">
+                       </button>
+                   </div>
+                   <div class="header__burger">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                   </div>
+               </div>
+                <div class="header-bottom">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <div class="header__item-show">
+                                <span>Компания</span>
+                            </div>
+                            <div class="header__item-hidden">
+                                <div class="header__item-content">
+                                    <a class="header__item-link" href="">Компания</a>
+                                    <a class="header__item-link" href="">История</a>
+                                    <a class="header__item-link" href="">Новости</a>
+                                    <a class="header__item-link" href="">Профиль компании</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__link"><a href="">Наши направления</a></li>
+                        <li class="header__link"><a href="">Где купить</a></li>
+                        <li class="header__link"><a href="">Оптовые продажи</a></li>
+                        <li class="header__link"><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+           </div>
+       </div>
+    </div>
+</header>
+
+        <section class="product-info">
+            <div class="container">
+                <div class="product-info__inner">
+                    <div class="breadcrumbs">
+                        <div class="breadcrumbs__items">
+                            <a href="index.html" class="breadcrumbs__item">Главная</a>
+                            <span class="breadcrumbs__item breadcrumbs__item--active">ППЭ (Вспененный полиэтилен)</span>
+                        </div>
+                    </div>
+                    <h2 class="products__title display2">
+                        <span>ППЭ (Вспененный полиэтилен)</span>
+                        <i>
+                            <img src="img/title-icon.webp" alt="">
+                        </i>
+                    </h2>
+                    <div class="product-info__content">
+                       <div class="product-info__left">
+                           <div class="product-info__img">
+                               <img src="img/product-info__img.webp" alt="">
+                           </div>
+                       </div>
+                        <div class="product-info__right">
+                            <div class="product-info__desc">
+                                <div class="product-info__article">
+                                    Артикул: <span>38145</span>
+                                </div>
+                                <div class="product-info__subtitle">
+                                    <span>Характеристики</span>
+                                </div>
+                                <ul class="product-info__list">
+                                    <li>
+                                        <span>Плотность</span>
+                                        <span>33 кг/м3</span>
+                                    </li>
+                                    <li>
+                                        <span>Толщина</span>
+                                        <span>2 и 3,5 мм</span>
+                                    </li>
+                                    <li>
+                                        <span>Водопоглощение</span>
+                                        <span><1.9%</span>
+                                    </li>
+                                    <li>
+                                        <span>Прочность при растяжении</span>
+                                        <span>ППЭ > 920  ППЭ + ВОРР > 12000</span>
+                                    </li>
+                                    <li>
+                                        <span>Теплостойкость</span>
+                                        <span>от +40 С до +95 С</span>
+                                    </li>
+                                </ul>
+                                <div class="product-info__btns">
+                                    <a class="product-info__btn btn btn-green" href="">
+                                        <span>Применение</span>
+                                    </a>
+                                    <a class="product-info__btn2 btn btn-black" href="">
+                                        <span>Оставить заявку</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products-info">
+            <div class="container">
+                <div class="products-info__inner">
+                    <div class="products-info__tabs">
+                        <div class="products-info__tabs-head">
+                            <div data-tab-path="1" class="products-info__tab products-info__tab--active">Описание</div>
+                            <div data-tab-path="2" class="products-info__tab">Оставить заявку</div>
+                            <div data-tab-path="3" class="products-info__tab">Документы</div>
+                        </div>
+                        <div class="products-info__tabs-body">
+                            <div data-content-path="1" class="products-info__content products-info__content--active">
+                                <div class="products-info__desc">
+                                    <div class="products-info__text">
+                                        <p>При проектировании и постройке зданий одной из актуальных проблем, которую приходится решать специалистам, является устройство изоляции воздушного и ударного шумов.
+                                            И если требуемая величина изоляции воздушного шума обеспечивается необходимой массивностью (плотностью материала и толщиной) строительных элементов и в основном решается на стадии капитального строительства, то в отношении изоляции ударного шума, требуемые нормы обеспечиваются дополнительными конструкциями звукоизолирующих полов.
+                                        </p>
+                                    </div>
+                                    <div class="products-info__items">
+                                        <div class="products-info__item">
+                                            <div class="products-info__item-number">
+                                                <span>01</span>
+                                                <i>
+                                                    <img src="img/triangle.webp" alt="">
+                                                </i>
+                                            </div>
+                                            <div class="products-info__item-text">
+                                                <p>Изолирует структурные (ударные) шумы, создавая настоящий акустический комфорт </p>
+                                            </div>
+                                        </div>
+                                        <div class="products-info__item">
+                                            <div class="products-info__item-number _green">
+                                                <span>02</span>
+                                                <i>
+                                                    <img src="img/triangle2.webp" alt="">
+                                                </i>
+                                            </div>
+                                            <div class="products-info__item-text">
+                                                <p>Сохраняет стабильные характеристики под действием высоких статических и динамических временных нагрузок</p>
+                                            </div>
+                                        </div>
+                                        <div class="products-info__item">
+                                            <div class="products-info__item-number _gray">
+                                                <span>03</span>
+                                                <i>
+                                                    <img src="img/triangle3.webp" alt="">
+                                                </i>
+                                            </div>
+                                            <div class="products-info__item-text">
+                                                <p>Высокая технологичность монтажа </p>
+                                            </div>
+                                        </div>
+                                        <div class="products-info__item">
+                                            <div class="products-info__item-number">
+                                                <span>04</span>
+                                                <i>
+                                                    <img src="img/triangle.webp" alt="">
+                                                </i>
+                                            </div>
+                                            <div class="products-info__item-text">
+                                                <p>Экологически чистый материал </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table">
+                                        <h3 class="table__title display3">
+                                            <i>
+                                                <img src="img/title-icon.webp" alt="">
+                                            </i>
+                                            <span>Сравнительная таблица свойств материалов различных подложек под паркет/ламинат.</span>
+                                        </h3>
+                                        <div class="table__wrap">
+                                            <table>
+                                                <thead>
+                                                <tr>
+                                                    <th class="rowspan3" rowspan="3">ТИП МАТЕРИАЛА</th>
+                                                </tr>
+                                                <tr>
+                                                    <th class="rowspan6" colspan="6">Свойства</th>
+                                                </tr>
+                                                <tr>
+                                                    <th rowspan="2">Устойчивость к нагрузкам с течением времени</th>
+                                                    <th rowspan="2">Обеспечение звукового комфорта в помещении</th>
+                                                    <th rowspan="2">Сглаживание неровностей поверхности пола</th>
+                                                    <th rowspan="2">Стойкость к гниению и появлению плесени</th>
+                                                    <th rowspan="2">Простота монтажа</th>
+                                                    <th rowspan="2">Отсутствие негативного воздействия на здоровье человека</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Пенополистирол</td>
+                                                    <td>+</td>
+                                                    <td>+</td>
+                                                    <td>++</td>
+                                                    <td>+</td>
+                                                    <td>-</td>
+                                                    <td>+</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Изорулон антишум</td>
+                                                    <td>+</td>
+                                                    <td>-</td>
+                                                    <td>+</td>
+                                                    <td>++</td>
+                                                    <td>+</td>
+                                                    <td>+</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Пенополиэтилен несшитый</td>
+                                                    <td>+</td>
+                                                    <td>+</td>
+                                                    <td>+</td>
+                                                    <td>--</td>
+                                                    <td>+</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Пробка</td>
+                                                    <td>+</td>
+                                                    <td>++</td>
+                                                    <td>+</td>
+                                                    <td>+</td>
+                                                    <td>+</td>
+                                                    <td>+</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="table__info">
+                                                <span>++ отлично</span>
+                                                <span>+хорошо </span>
+                                                <span>- плохо </span>
+                                                <span>-- очень плохо </span>
+                                            </div>
+                                            <div class="table__desc">
+                                                <div class="table__text">
+                                                    <p>Представленное выше сравнение показывает, что сшитый ППЭ проявляет значительно большую устойчивость к нагрузке, что позволяет ему сохранять отличные изоляционные свойства и выгодно отличает от конкурирующих материалов: значительно проще и быстрее в монтаже, не крошится и не ломается при укладке,устойчив к гниению и плесени. </p>
+                                                </div>
+                                                <ul class="table__list">
+                                                    <li>может быть произведен различных плотностей - от 25 до 200 кг/м3</li>
+                                                    <li>имеет широкую цветовую гамму­более 30 цветов</li>
+                                                    <li>может быть разной толщины от 2 до 100 мм</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content-path="2" class="products-info__content">
+                                <div class="products-info__subtitle">
+                                    <span>Оставьте заявку и мы свяжемся с вами в ближайшее время!</span>
+                                </div>
+                                <form class="products-info__form form">
+                                    <div class="products-info__form-grid">
+                                        <fieldset class="products-info__form-group form-group">
+                                            <img src="img/basket.svg" alt="">
+                                            <input type="text" placeholder="Название товара">
+                                        </fieldset>
+                                        <fieldset class="products-info__form-group form-group">
+                                            <img src="img/quantity.svg" alt="">
+                                            <input type="text" placeholder="Количество">
+                                        </fieldset>
+                                        <fieldset class="products-info__form-group form-group">
+                                            <img src="img/city.svg" alt="">
+                                            <input type="text" placeholder="Укажите город">
+                                        </fieldset>
+                                        <fieldset class="products-info__form-group form-group">
+                                            <img src="img/mail2.svg" alt="">
+                                            <input type="email" placeholder="E-mail адрес">
+                                        </fieldset>
+                                        <fieldset class="products-info__form-group form-group">
+                                            <img src="img/user.svg" alt="">
+                                            <input type="text" placeholder="Ваше имя">
+                                        </fieldset>
+                                        <fieldset class="products-info__form-group form-group">
+                                            <img src="img/tel2.svg" alt="">
+                                            <input type="text" placeholder="Номер телефона">
+                                        </fieldset>
+                                        <fieldset class="products-info__form-group _big form-group">
+                                            <img src="img/text.svg" alt="">
+                                            <textarea placeholder="Комментарий к заявке"></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <div class="products-info__form-bottom">
+                                        <div class="products-info__form-info">
+                                            <p>Нажимая на кнопку, я даю согласие на обработку персональных данных и согласен с политикой конфиденциальности</p>
+                                        </div>
+                                        <button class="products-info__form-btn btn-black">
+                                            <span>Отправить</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div data-content-path="3" class="products-info__content">
+                                <div class="products-info__documents">
+                                    <a href="" download="" class="products-info__document">
+                                        <div class="products-info__document-img">
+                                            <img src="img/pdf.webp" alt="">
+                                        </div>
+                                        <div class="products-info__document-desc">
+                                            <span>Скачать файл.pdf</span>
+                                        </div>
+                                    </a>
+                                    <a href="" download="" class="products-info__document">
+                                        <div class="products-info__document-img">
+                                            <img src="img/xls.webp" alt="">
+                                        </div>
+                                        <div class="products-info__document-desc">
+                                            <span>Скачать файл.xls</span>
+                                        </div>
+                                    </a>
+                                    <a href="" download="" class="products-info__document">
+                                        <div class="products-info__document-img">
+                                            <img src="img/doc.webp" alt="">
+                                        </div>
+                                        <div class="products-info__document-desc">
+                                            <span>Скачать файл.doc</span>
+                                        </div>
+                                    </a>
+                                    <a href="" download="" class="products-info__document">
+                                        <div class="products-info__document-img">
+                                            <img src="img/jpg.webp" alt="">
+                                        </div>
+                                        <div class="products-info__document-desc">
+                                            <span>Скачать файл.pdf</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products2">
+            <div class="container">
+                <div class="products2__inner">
+                    <div class="products2__top">
+                        <h3 class="products2__title display3">
+                            <i>
+                                <img src="img/title-icon.webp" alt="">
+                            </i>
+                            <span>Продукция нашего завода</span>
+                        </h3>
+                        <div class="products2__slider-nav">
+                            <div class="products2__slider-btns">
+                                <div class="swiper-button-prev">
+                                    <svg width="46" height="16" viewBox="0 0 46 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41422 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM46 9H1V7H46V9Z" fill="#272B2D"/>
+                                    </svg>
+                                </div>
+                                <div class="swiper-button-next">
+                                    <svg width="46" height="16" viewBox="0 0 46 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M45.7071 8.70711C46.0976 8.31658 46.0976 7.68342 45.7071 7.29289L39.3431 0.928932C38.9526 0.538408 38.3195 0.538408 37.9289 0.928932C37.5384 1.31946 37.5384 1.95262 37.9289 2.34315L43.5858 8L37.9289 13.6569C37.5384 14.0474 37.5384 14.6805 37.9289 15.0711C38.3195 15.4616 38.9526 15.4616 39.3431 15.0711L45.7071 8.70711ZM0 9H45V7H0V9Z" fill="#272B2D"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products2__slider">
+                        <div class="products2__swiper swiper mySwiper">
+                            <div class="products2__swiper-wrapper swiper-wrapper">
+                                <a href="" class="product-card swiper-slide">
+                                    <div class="product-card__img">
+                                        <img src="img/product-img.webp" alt="">
+                                    </div>
+                                    <div class="product-card__desc">
+                                        <div class="product-card__title">
+                                            <span>Изорулон антишум</span>
+                                        </div>
+                                        <div class="product-card__subtitle">
+                                            <span>Подложка под паркет/ламинат</span>
+                                        </div>
+                                        <ul class="product-card__list">
+                                            <li>
+                                                <span>Плотность</span>
+                                                <span>33 кг/м3</span>
+                                            </li>
+                                            <li>
+                                                <span>Толщина</span>
+                                                <span>2 и 3,5 мм</span>
+                                            </li>
+                                        </ul>
+                                        <button class="product-card__btn btn-green">
+                                            <span>Подробнее</span>
+                                        </button>
+                                    </div>
+                                </a>
+                                <a href="" class="product-card swiper-slide">
+                                    <div class="product-card__img">
+                                        <img src="img/product-img2.webp" alt="">
+                                    </div>
+                                    <div class="product-card__desc">
+                                        <div class="product-card__title">
+                                            <span>Изорулон</span>
+                                        </div>
+                                        <div class="product-card__subtitle">
+                                            <span>Подложка под обои</span>
+                                        </div>
+                                        <ul class="product-card__list">
+                                            <li>
+                                                <span>Площадь покрытия</span>
+                                                <span>7 м2</span>
+                                            </li>
+                                            <li>
+                                                <span>Толщина</span>
+                                                <span>5 мм</span>
+                                            </li>
+                                        </ul>
+                                        <button class="product-card__btn btn-green">
+                                            <span>Подробнее</span>
+                                        </button>
+                                    </div>
+                                </a>
+                                <a href="" class="product-card swiper-slide">
+                                    <div class="product-card__img">
+                                        <img src="img/product-img.webp" alt="">
+                                    </div>
+                                    <div class="product-card__desc">
+                                        <div class="product-card__title">
+                                            <span>Изорулон антишум</span>
+                                        </div>
+                                        <div class="product-card__subtitle">
+                                            <span>Подложка под паркет/ламинат</span>
+                                        </div>
+                                        <ul class="product-card__list">
+                                            <li>
+                                                <span>Плотность</span>
+                                                <span>33 кг/м3</span>
+                                            </li>
+                                            <li>
+                                                <span>Толщина</span>
+                                                <span>2 и 3,5 мм</span>
+                                            </li>
+                                        </ul>
+                                        <button class="product-card__btn btn-green">
+                                            <span>Подробнее</span>
+                                        </button>
+                                    </div>
+                                </a>
+                                <a href="" class="product-card swiper-slide">
+                                    <div class="product-card__img">
+                                        <img src="img/product-img2.webp" alt="">
+                                    </div>
+                                    <div class="product-card__desc">
+                                        <div class="product-card__title">
+                                            <span>Изорулон</span>
+                                        </div>
+                                        <div class="product-card__subtitle">
+                                            <span>Подложка под обои</span>
+                                        </div>
+                                        <ul class="product-card__list">
+                                            <li>
+                                                <span>Площадь покрытия</span>
+                                                <span>7 м2</span>
+                                            </li>
+                                            <li>
+                                                <span>Толщина</span>
+                                                <span>5 мм</span>
+                                            </li>
+                                        </ul>
+                                        <button class="product-card__btn btn-green">
+                                            <span>Подробнее</span>
+                                        </button>
+                                    </div>
+                                </a>
+                                <a href="" class="product-card swiper-slide">
+                                    <div class="product-card__img">
+                                        <img src="img/product-img.webp" alt="">
+                                    </div>
+                                    <div class="product-card__desc">
+                                        <div class="product-card__title">
+                                            <span>Изорулон антишум</span>
+                                        </div>
+                                        <div class="product-card__subtitle">
+                                            <span>Подложка под паркет/ламинат</span>
+                                        </div>
+                                        <ul class="product-card__list">
+                                            <li>
+                                                <span>Плотность</span>
+                                                <span>33 кг/м3</span>
+                                            </li>
+                                            <li>
+                                                <span>Толщина</span>
+                                                <span>2 и 3,5 мм</span>
+                                            </li>
+                                        </ul>
+                                        <button class="product-card__btn btn-green">
+                                            <span>Подробнее</span>
+                                        </button>
+                                    </div>
+                                </a>
+                                <a href="" class="product-card swiper-slide">
+                                    <div class="product-card__img">
+                                        <img src="img/product-img2.webp" alt="">
+                                    </div>
+                                    <div class="product-card__desc">
+                                        <div class="product-card__title">
+                                            <span>Изорулон</span>
+                                        </div>
+                                        <div class="product-card__subtitle">
+                                            <span>Подложка под обои</span>
+                                        </div>
+                                        <ul class="product-card__list">
+                                            <li>
+                                                <span>Площадь покрытия</span>
+                                                <span>7 м2</span>
+                                            </li>
+                                            <li>
+                                                <span>Толщина</span>
+                                                <span>5 мм</span>
+                                            </li>
+                                        </ul>
+                                        <button class="product-card__btn btn-green">
+                                            <span>Подробнее</span>
+                                        </button>
+                                    </div>
+                                </a>
+                                <a href="" class="product-card swiper-slide">
+                                    <div class="product-card__img">
+                                        <img src="img/product-img.webp" alt="">
+                                    </div>
+                                    <div class="product-card__desc">
+                                        <div class="product-card__title">
+                                            <span>Изорулон антишум</span>
+                                        </div>
+                                        <div class="product-card__subtitle">
+                                            <span>Подложка под паркет/ламинат</span>
+                                        </div>
+                                        <ul class="product-card__list">
+                                            <li>
+                                                <span>Плотность</span>
+                                                <span>33 кг/м3</span>
+                                            </li>
+                                            <li>
+                                                <span>Толщина</span>
+                                                <span>2 и 3,5 мм</span>
+                                            </li>
+                                        </ul>
+                                        <button class="product-card__btn btn-green">
+                                            <span>Подробнее</span>
+                                        </button>
+                                    </div>
+                                </a>
+                                <a href="" class="product-card swiper-slide">
+                                    <div class="product-card__img">
+                                        <img src="img/product-img2.webp" alt="">
+                                    </div>
+                                    <div class="product-card__desc">
+                                        <div class="product-card__title">
+                                            <span>Изорулон</span>
+                                        </div>
+                                        <div class="product-card__subtitle">
+                                            <span>Подложка под обои</span>
+                                        </div>
+                                        <ul class="product-card__list">
+                                            <li>
+                                                <span>Площадь покрытия</span>
+                                                <span>7 м2</span>
+                                            </li>
+                                            <li>
+                                                <span>Толщина</span>
+                                                <span>5 мм</span>
+                                            </li>
+                                        </ul>
+                                        <button class="product-card__btn btn-green">
+                                            <span>Подробнее</span>
+                                        </button>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="up">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 63.215 63.215" style="enable-background:new 0 0 63.215 63.215;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M31.726,14.915c-0.602-0.089-1.237,0.09-1.703,0.552L0.592,44.677c-0.785,0.776-0.789,2.044-0.011,2.827
+			c0.364,0.367,0.834,0.563,1.312,0.589c0.545,0.028,1.098-0.164,1.515-0.579l28.3-28.085L59.796,47.73
+			c0.364,0.367,0.835,0.563,1.312,0.589c0.544,0.029,1.098-0.164,1.516-0.578c0.784-0.777,0.789-2.045,0.011-2.827L33.425,15.48
+			C32.962,15.014,32.329,14.829,31.726,14.915z"/>
+	</g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+                <g>
+</g>
+</svg>
+        </div>
+
+        <footer class="footer footer2">
+            <div class="container">
+                <div class="footer__inner">
+                    <a class="footer__logo" href="">
+                        <img src="img/logo3.svg" alt="">
+                    </a>
+                    <div class="footer__items">
+                        <nav class="footer__nav">
+                            <div class="footer__nav-title">
+                                <span>О компании</span>
+                            </div>
+                            <ul class="footer__list">
+                                <li><a href="">Новости</a></li>
+                                <li><a href="">Профайл</a></li>
+                                <li><a href="">История компании</a></li>
+                                <li><a href="">Цели компании</a></li>
+                                <li><a href="">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="footer__nav">
+                            <div class="footer__nav-title">
+                                <span>БИЗНЕС ПОДРАЗДЕЛЕНИЯ</span>
+                            </div>
+                            <ul class="footer__list">
+                                <li><a href="">Детское направление</a></li>
+                                <li><a href="">Спорт и активный отдых</a></li>
+                                <li><a href="">Disney направление</a></li>
+                                <li><a href="">Строительство и изоляция</a></li>
+                                <li><a href="">Оборудование</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="footer__nav">
+                            <div class="footer__nav-title">
+                                <span>НОВИНКИ</span>
+                            </div>
+                            <ul class="footer__list">
+                                <li><a href="">Мобильная площадка</a></li>
+                                <li><a href="">Складной коврик</a></li>
+                                <li><a href="">Ролл-маты</a></li>
+                                <li><a href=""></a></li>
+                                <li><a href="">Борцовские маты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__brevis">
+                        <div class="footer__brevis-img">
+                            <img src="img/brevis.png" alt="">
+                        </div>
+                        <div class="footer__brevis-text">
+                            <p>Разработка корпоративного сайта
+                                <a href="">интернет-агентство BREVIS</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+
+</body>
+
+</html>
